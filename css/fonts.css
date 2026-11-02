@@ -1,0 +1,251 @@
+:root {
+    /* Font Sizes */
+    --text-10: 12px;
+    --text-12: 12px;
+    --text-14: 14px;
+    --text-16: 16px;
+    --text-18: 18px;
+    --text-24: 24px;
+    --text-30: 30px;
+    --text-36: 36px;
+    --text-45: 45px;
+    --text-60: 60px;
+}
+
+/* Font Size Classes */
+.text-10 {
+    font-size: var(--text-10);
+}
+.text-12 {
+    font-size: var(--text-12);
+}
+
+.text-14 {
+    font-size: var(--text-14);
+}
+
+.text-16 {
+    font-size: var(--text-16);
+}
+
+.text-18 {
+    font-size: var(--text-18);
+}
+
+.text-24 {
+    font-size: var(--text-24);
+}
+
+.text-30 {
+    font-size: var(--text-30);
+}
+
+.text-36 {
+    font-size: var(--text-36);
+}
+.text-45 {
+    font-size: var(--text-45);
+}
+.text-60 {
+    font-size: var(--text-60);
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .text-sm-10 {
+        font-size: var(--text-10);
+    }
+    .text-sm-12 {
+        font-size: var(--text-12);
+    }
+
+    .text-sm-14 {
+        font-size: var(--text-14);
+    }
+
+    .text-sm-16 {
+        font-size: var(--text-16);
+    }
+
+    .text-sm-18 {
+        font-size: var(--text-18);
+    }
+
+    .text-sm-24 {
+        font-size: var(--text-24);
+    }
+
+    .text-sm-30 {
+        font-size: var(--text-30);
+    }
+
+    .text-sm-36 {
+        font-size: var(--text-36);
+    }
+    .text-sm-45 {
+        font-size: var(--text-45);
+    }
+    .text-sm-60 {
+        font-size: var(--text-60);
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .text-md-10 {
+        font-size: var(--text-10);
+    }
+    .text-md-12 {
+        font-size: var(--text-12);
+    }
+
+    .text-md-14 {
+        font-size: var(--text-14);
+    }
+
+    .text-md-16 {
+        font-size: var(--text-16);
+    }
+
+    .text-md-18 {
+        font-size: var(--text-18);
+    }
+
+    .text-md-24 {
+        font-size: var(--text-24);
+    }
+
+    .text-md-30 {
+        font-size: var(--text-30);
+    }
+
+    .text-md-36 {
+        font-size: var(--text-36);
+    }
+    .text-md-45 {
+        font-size: var(--text-45);
+    }
+    .text-md-60 {
+        font-size: var(--text-60);
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .text-lg-10 {
+        font-size: var(--text-10);
+    }
+    .text-lg-12 {
+        font-size: var(--text-12);
+    }
+
+    .text-lg-14 {
+        font-size: var(--text-14);
+    }
+
+    .text-lg-16 {
+        font-size: var(--text-16);
+    }
+
+    .text-lg-18 {
+        font-size: var(--text-18);
+    }
+
+    .text-lg-24 {
+        font-size: var(--text-24);
+    }
+
+    .text-lg-30 {
+        font-size: var(--text-30);
+    }
+
+    .text-lg-36 {
+        font-size: var(--text-36);
+    }
+    .text-lg-45 {
+        font-size: var(--text-45);
+    }
+    .text-lg-60 {
+        font-size: var(--text-60);
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .text-xl-10 {
+        font-size: var(--text-10);
+    }
+    .text-xl-12 {
+        font-size: var(--text-12);
+    }
+
+    .text-xl-14 {
+        font-size: var(--text-14);
+    }
+
+    .text-xl-16 {
+        font-size: var(--text-16);
+    }
+
+    .text-xl-18 {
+        font-size: var(--text-18);
+    }
+
+    .text-xl-24 {
+        font-size: var(--text-24);
+    }
+
+    .text-xl-30 {
+        font-size: var(--text-30);
+    }
+
+    .text-xl-36 {
+        font-size: var(--text-36);
+    }
+    .text-xl-45 {
+        font-size: var(--text-45);
+    }
+    .text-xl-60 {
+        font-size: var(--text-60);
+    }
+}
+
+/* xxl */
+@media (min-width: 1536px) {
+    .text-xxl-10 {
+        font-size: var(--text-10);
+    }
+    .text-xxl-12 {
+        font-size: var(--text-12);
+    }
+
+    .text-xxl-14 {
+        font-size: var(--text-14);
+    }
+
+    .text-xxl-16 {
+        font-size: var(--text-16);
+    }
+
+    .text-xxl-18 {
+        font-size: var(--text-18);
+    }
+
+    .text-xxl-24 {
+        font-size: var(--text-24);
+    }
+
+    .text-xxl-30 {
+        font-size: var(--text-30);
+    }
+
+    .text-xxl-36 {
+        font-size: var(--text-36);
+    }
+    .text-xxl-45 {
+        font-size: var(--text-45);
+    }
+    .text-xxl-36 {
+        font-size: var(--text-60);
+    }
+}

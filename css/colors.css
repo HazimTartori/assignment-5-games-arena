@@ -1,0 +1,67 @@
+:root {
+    /* Lime */
+    --lime-500: #c8ff15;
+    /* Gray */
+    --gray-100: #F1F1F1;
+    --gray-300: #D7D8DA;
+    /* dark */
+    --dark-950: #0B0E13;
+    /* white  */
+    --white:#ffffff;
+    --dark-blue :#1E2939;
+    --dark-200 :#1A1A1A;
+}
+
+/* Text Colors */
+.text-lime-500 {
+    color: var(--lime-500);
+}
+
+.text-gray-100 {
+    color: var(--gray-100);
+}
+
+.text-gray-300 {
+    color: var(--gray-300);
+}
+.text-dark-950 {
+    color: var(--dark-950);
+}
+.text-fff {
+    color: var(--white);
+}
+
+/* Background Colors */
+.bg-lime-500 {
+    background-color: var(--lime-500);
+}
+
+.bg-gray-100 {
+    background-color: var(--gray-100);
+}
+
+.bg-gray-300 {
+    background-color: var(--gray-300);
+}
+.bg-dark-950 {
+    background-color: var(--dark-950);
+}
+.bg-dark-blue {
+    background-color: var(--dark-blue);
+}
+.bg-dark-200 {
+    background-color: var(--dark-200);
+}
+.bg-fff {
+    color: var(--white);
+}
+.lime-hover{
+transition: color .3s ease;
+}
+.lime-hover:hover {
+    color: var(--lime-500);
+}
+
+.dark-hover:hover {
+background-color:var(--dark-950) ;
+}

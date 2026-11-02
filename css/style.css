@@ -1,0 +1,289 @@
+.logo-img {
+    width: 25px;
+    height: 20px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+.p-main {
+    padding-top: 72px;
+}
+
+main {
+    min-height: 100vh;
+    padding-top: 72px;
+    background-image: linear-gradient(#000000e0, #000000e0), url(../imgs/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero .hero-content {}
+
+.hero .hero-img {
+    height: 350px;
+    border: 5px solid #c8ff15;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+
+.hero .hero-img .position {
+    bottom: -10%;
+    left: -5%;
+}
+
+header p {
+    position: relative;
+}
+
+header p::after {
+    content: "";
+    width: 90px;
+    height: 2px;
+    background: linear-gradient(to left, transparent, var(--lime-500));
+    position: absolute;
+    right: -110px;
+    top: 10px;
+}
+
+header p::before {
+    content: "";
+    width: 90px;
+    height: 2px;
+    background: linear-gradient(to right, transparent, var(--lime-500));
+    position: absolute;
+    left: -110px;
+    top: 10px;
+
+
+}
+
+.rotate-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.dark-lime-hover {
+    transition: 0.3s;
+}
+
+.dark-lime-hover:hover {
+    background-color: #90b613;
+}
+
+.arrow-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #3a4150;
+    color: #fff;
+    transition: .3s;
+}
+
+.arrow-btn:hover {
+    border-color: var(--lime-500);
+    color: var(--lime-500);
+}
+
+.view-all {
+    border: 1px solid var(--lime-500);
+    color: var(--lime-500);
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 12px 24px;
+    transition: .3s;
+}
+
+.service-card {}
+
+.service-card::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    width: 30px;
+    height: 30px;
+    background: #ccff14;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    opacity: 0;
+    transform: translate(-15px, -15px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.service-card::after {
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    background: #ccff14;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    opacity: 0;
+    transform: translate(15px, 15px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.service-card:hover::before,
+.service-card:hover::after {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.service-card:hover {
+    border: 1px solid var(--lime-500);
+}
+
+.service-card:hover .service-card-icon {
+    color: black;
+}
+
+.service-card:hover .icon-wrapper {
+    background-color: var(--lime-500);
+}
+
+.view-all:hover {
+    background: var(--lime-500);
+    color: #000;
+}
+
+.watch-tournaments {
+    background-color: transparent;
+    border: 1px solid var(--lime-500);
+}
+
+.watch-tournaments:hover {
+    background: var(--lime-500);
+    color: #000;
+}
+
+.card-avatar {
+    overflow: hidden;
+}
+
+.card-avatar::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top,
+            rgba(20, 20, 20, 0.9) 100%,
+            rgba(10, 10, 10, 0.5) 10%,
+            transparent 100%);
+    transform: translateY(0%);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.card-avatar:hover::after {
+    transform: translateY(-100%);
+}
+
+input {
+    background-color: #000;
+}
+
+.card-info {
+    z-index: 1;
+}
+
+.contact-icon {
+    width: 65px;
+    height: 65px;
+}
+
+.community-card-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.p36px {
+    padding: 36px;
+}
+.game-card {
+    position: relative;
+    overflow: hidden;              /* عشان الزوم ما يطلع برا الكرت */
+    border: 2px solid transparent;
+    transition: border-color .3s ease;
+    cursor: pointer;
+}
+
+.game-card img {
+    display: block;
+    object-fit: cover;
+    transition: transform .5s ease;
+}
+
+/* الطبقة اللونية + المحتوى */
+.game-overlay {
+    position: absolute;
+    inset: 0;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, rgba(170, 255, 0, .35), rgba(200, 255, 0, .55));
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+/* التاغات */
+.game-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    transform: translateY(-150%);
+    transition: 0.3s ease;
+}
+.game-card:hover .game-tags {
+    transform: translateY(-10%);
+}
+.game-tag {
+    background: rgba(10, 20, 10, .65);
+    color: #fff;
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 50px;
+    backdrop-filter: blur(4px);
+}
+
+.game-tag i {
+    color: #b6ff00;
+    margin-inline-end: 4px;
+}
+
+/* اسم اللعبة */
+.game-title {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #0a0f0a;
+    transform: translateY(150%);
+    transition: 0.3s ease;
+}
+.game-card:hover .game-title {
+    transform: translateY(-10%);
+} 
+/* حالة الـ hover */
+.game-card:hover {
+    border-color: #b6ff00;
+}
+
+.game-card:hover img {
+    transform: scale(1.06);
+}
+
+.game-card:hover .game-overlay {
+    opacity: 1;
+}
